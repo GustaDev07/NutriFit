@@ -4,12 +4,12 @@ O Gerador de Dietas é uma aplicação web que permite aos usuários inserirem i
 
 ## Funcionalidades
 - Inserção de informações.
-- Gerar cronograma de alimentação: Ao submeteras informações, um cronograma é exibido na tela, formatada em HTML.
+- Gerar cronograma de alimentação: Ao submeter as informações, um cronograma é exibido na tela, formatada em HTML.
 ## Estrutura do Projeto
-- HTML (index.html): Estrutura a interface do usuário, permitindo a inserção de ingredientes e a visualização da receita gerada.
+- HTML (index.html): Estrutura a interface do usuário, permitindo a inserção de informações pessoais.
 - CSS (style.css): Estiliza a interface, proporcionando uma experiência de usuário agradável.
-- JavaScript (script.js): Manipula as interações do usuário, como adicionar ou remover ingredientes, e faz a requisição ao backend para gerar a receita.
-- Backend (app.py): Utiliza o Flask para criar uma API que recebe os ingredientes, comunica-se com o modelo generativo para criar a receita, e retorna o resultado em formato HTML.
+- JavaScript (script.js): Manipula as interações do usuário, e faz a requisição ao backend para gerar a dieta.
+- Backend (app.py): Utiliza o Flask para criar uma API que as informações, comunica-se com o modelo generativo para criar o cronograma de dietas, e retorna o resultado em formato HTML.
 ## Como Executar
 ### Requisitos
 - Python 3.x
@@ -19,7 +19,6 @@ O Gerador de Dietas é uma aplicação web que permite aos usuários inserirem i
 ## Passos para Configuração
 - Clone o repositório:
 git clone https://github.com/GustaDev07/NutriFit.git
-cd projeto-gerador-receitas
 
 - Instale as dependências do Python:
 pip install flask flask-cors google-generativeai
