@@ -26,7 +26,7 @@ pip install flask flask-cors google-generativeai
 
 - Gere sua chave de API em: https://aistudio.google.com/app/u/1/apikey
 - Adicione sua chave API do Google Generative AI no arquivo app.py na linha:
-gemini.configure(api_key="suachaveapi")
+gemini.configure(api_key="Sua chave API")
 
 - Execute a aplicação Flask:
 python api.py
